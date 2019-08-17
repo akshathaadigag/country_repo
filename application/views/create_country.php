@@ -20,7 +20,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         
         <div class="container">
             
-            <p style="text-align:right">To view all countries:<a href="<?php echo base_url(); ?>Country/manage_country"><span class="blink_me">Click Here</span></a></p><br>
+            <p style="text-align:right">To view countries:<a href="<?php echo base_url(); ?>Country/manage_country"><span class="blink_me">Click Here</span></a></p><br>
 		 <form action="<?php echo base_url();?>Country/index" class="form-horizontal form-label-left" method="post">
                         <div class="form-group">
                           <label >Country Name:</label>
