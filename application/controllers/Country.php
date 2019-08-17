@@ -53,7 +53,6 @@ class Country extends CI_Controller {
      public function manage_country() {
          
         $this->form_validation->set_rules('Name', 'Name', 'required|trim|callback_validate_dropdown');
-        $output['country_list'] = $this->country_m->getAllData();
         $output['country_master']=$this->country_master();
            
              
